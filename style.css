@@ -1,0 +1,9 @@
+li {
+  list-style-type: none;
+}
+
+button {
+  margin: 20;
+  padding: 20;
+  margin-left: 0%;
+}

@@ -20,6 +20,20 @@ ul.removeChild(item)
 }
 
 
+function assignTeam(){
+    let randomize = addPerson()
+
+    for(let random of randomize){
+
+        random = Math.floor(Math.random()*randomize.length)
+       
+        document.getElementById('list').innerHTML= randomize.splice([random],2)
+     }
+}
+
+
+
+
 
 
 
